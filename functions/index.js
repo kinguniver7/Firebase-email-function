@@ -11,6 +11,7 @@ app.use(express.urlencoded());
 app.use(express.json());
 app.use(cors);
 //app.use(myMiddleware);
+//PULL request
 
 
 let transporter = nodemailer.createTransport({
